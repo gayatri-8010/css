@@ -1,0 +1,50 @@
+/* Universal Selector */
+* {
+  font-family: Arial, sans-serif;
+}
+
+/* Type Selector */
+body {
+  background-color: #f0f8ff;
+}
+
+p {
+  color: #333333;
+}
+
+/* Class Selector */
+.highlight {
+  background-color: yellow;
+}
+
+.box {
+  background-color: #e0e0e0;
+  color: #333333;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 8px;
+}
+
+/* ID Selector */
+#main-header {
+  font-size: 24px;
+  font-weight: bold;
+  background-color: #4caf50;
+  padding: 10px;
+  color: white;
+}
+
+/* Descendant Selector */
+p span {
+  color: blue;
+}
+
+.list-div li {
+  color: #ff5722;
+}
+
+/* Grouping Selector */
+h1, h2, h3 {
+  color: #2e2e2e;
+  text-align: center;
+}
